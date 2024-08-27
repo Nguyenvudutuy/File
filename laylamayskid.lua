@@ -10195,6 +10195,30 @@ spawn(function()
 end)
 
 Tabs.Race:AddButton({
+        Title = "Auto Complete Trial Angel",
+        Description = "",
+        Callback = function()            
+             TP2(game.Workspace.Map.SkyTrial.Model.FinishPart.CFrame)
+        end
+    })
+
+Tabs.Race:AddButton({
+        Title = "Auto Complete Trial Rabbit",
+        Description = "",
+        Callback = function()            
+             TP2(game:GetService("Workspace").Map.MinkTrial.Ceiling.CFrame * CFrame.new(0,-5,0))
+        end
+    })    
+
+Tabs.Race:AddButton({
+        Title = "Auto Complete Trial Cyborg",
+        Description = "",
+        Callback = function()            
+             TP2(CFrame.new(0,300,0))
+        end
+    })
+
+Tabs.Race:AddButton({
         Title = "Auto Reset Character",
         Description = "",
         Callback = function()            
