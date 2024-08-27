@@ -4965,7 +4965,7 @@ end)
 local Slider = Tabs.Settings:AddSlider("Slider", {
         Title = "MobHealth",
         Description = "",
-        Default = 85,
+        Default = 70,
         Min = 0,
         Max = 100,
         Rounding = 5,
