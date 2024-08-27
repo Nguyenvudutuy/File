@@ -3001,7 +3001,7 @@ local melees = {
 }
 
 local Chon_Melee = Tabs.Shop:AddDropdown("Chon_Melee", {
-    Title = "Select",
+    Title = "Melee",
     Description = "",
     Values = {"Select", "Black Leg", "Electro", "Fishman Karate", "Dragon Claw", "Superhuman", "Death Step", "Sharkman Karate", "Electric Claw", "Dragon Talon", "Godhuman", "SanguineArt" },
     Multi = false,
