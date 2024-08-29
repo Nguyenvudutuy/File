@@ -3149,19 +3149,6 @@ spawn(function()
         end)
     end
 end)
-
-local ObservationRange = Tabs.Server:AddParagraph({
-        Title = "Observation Level",
-        Content = ""
-    })
-    
-    spawn(function()
-        while wait() do
-            pcall(function()
-                ObservationRange:SetDesc("Observation Range Level : "..math.floor(game:GetService("Players").LocalPlayer.VisionRadius.Value))
-            end)
-        end
-    end)
     
 local StatusBone = Tabs.Server:AddParagraph({
     Title = "Bone",
