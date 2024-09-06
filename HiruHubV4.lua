@@ -45,6 +45,8 @@ local Tabs = {
     Shop = Window:AddTab({ Title = "Tab Shop", Icon = "" }),
 }
 
+local Options = Fluent.Options
+
 local player = game.Players.LocalPlayer
 local L1 = Instance.new("ScreenGui")
 local L2 = Instance.new("TextButton")
