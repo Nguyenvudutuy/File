@@ -2391,7 +2391,7 @@ spawn(function()
     end
 end)
 
-local Toggle = Tabs.Race:AddToggle("Teleport Gear", { Title = "Teleport To Gear", Default = false })
+local Toggle = Tabs.Race:AddToggle("Teleport To Blue Gear", { Title = "Teleport To Gear", Default = false })
 Toggle:OnChanged(function(Value)
     _G.Luom_Gear = Value
     StopTween(_G.Luom_Gear)
