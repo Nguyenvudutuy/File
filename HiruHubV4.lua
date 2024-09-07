@@ -2836,9 +2836,9 @@ spawn(
                     if v.Name ~= game.Players.LocalPlayer.Name then
                         if v.Humanoid.Health > 0 and v:FindFirstChild("HumanoidRootPart") and v.Parent and (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.HumanoidRootPart.Position).Magnitude <= 230 then
                             repeat task.wait()
+                                UsefastattackPlayers = true
                                 AutoHaki()
                                 EquipWeapon(_G.SelectWeapon)
-                                UsefastattackPlayers = true
                             topos(v.HumanoidRootPart.CFrame * CFrame.new(1, 1, 2))
                             v.HumanoidRootPart.Size = Vector3.new(60, 60, 60)
                             if _G.ConCacZ then
